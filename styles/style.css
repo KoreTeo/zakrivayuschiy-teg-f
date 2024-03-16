@@ -31,7 +31,7 @@
   padding-block-start: 100px;
 }
 
-.header__heading, .main__card__heading  {
+.header__heading, .main__card__heading {
   font-variation-settings: 'wght' var(--heading-weight);
 }
 
@@ -186,15 +186,15 @@
   align-self: flex-end;
   margin-block-end: 23px;
   margin-inline-end: 25px;
+  gap: 6px;
 }
 
 .card__icon-button {
   display: flex;
   justify-content: center;
   align-items: center;
-  inline-size: 54px;
+  inline-size: 42px;
   block-size: 42px;
-  border: none;
   padding: 0;
   cursor: pointer;
   border: 2px solid transparent;
@@ -219,7 +219,7 @@
   transition: box-shadow 0.3s ease;
 }
 
-.main__button:hover::before{
+.main__button:hover::before {
   transform: scaleX(1);
 }
 
