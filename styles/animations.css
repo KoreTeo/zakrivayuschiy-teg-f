@@ -13,7 +13,7 @@
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 */
 
-@keyframes arrow {
+@keyframes slideInFromLeft {
 
   0% {
     inset-inline-start: -20px;
@@ -64,10 +64,10 @@
 }
 
 .is-liked .heart-dots {
-  animation: heart-dots .3s ease-in .3s alternate;
+  animation: appearFromZeroOpacity .3s ease-in .3s alternate;
 }
 
-@keyframes heart-dots {
+@keyframes appearFromZeroOpacity {
   0% {
     opacity: 0;
   }
